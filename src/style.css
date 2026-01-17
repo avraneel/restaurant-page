@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+}
+
+.image {
+    content: url(img/prawns.jpg);
+}
+
+.timings, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
