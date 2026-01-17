@@ -5,9 +5,12 @@ body {
 }
 
 #content {
+    width: 30rem;
+}
+
+section {
     display: flex;
     flex-direction: column;
-    width: 30rem;
 }
 
 .image {
