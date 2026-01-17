@@ -1,4 +1,5 @@
 import "./style.css"
+import { createContact } from "./contact.js"
 
 console.log("Restaurant Page");
 
@@ -81,11 +82,4 @@ for(let i=0;i<data.length;i++) {
 
 document.querySelector(".timetable").append(timeHeader, timetable);
 
-const contactHeader = document.createElement("h2");
-contactHeader.textContent = "Contact Us";
-
-const address = document.createElement("address");
-const br = document.createElement("br");
-address.append("123 Forest Road", br, "seafoodining@mail.com")
-
-document.querySelector(".contact").append(contactHeader, address);
+createContact();
