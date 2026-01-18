@@ -13,9 +13,9 @@ section {
     flex-direction: column;
 }
 
-.image {
+/* .image {
     content: url(img/prawns.jpg);
-}
+} */
 
 .timings, th, td {
     border: 1px solid black;

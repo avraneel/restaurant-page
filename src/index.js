@@ -1,5 +1,8 @@
+"use strict";
+
 import "./style.css"
 import { createContact } from "./contact.js"
+import createMenu from "./menu.js";
 
 console.log("Restaurant Page");
 
@@ -83,3 +86,5 @@ for(let i=0;i<data.length;i++) {
 document.querySelector(".timetable").append(timeHeader, timetable);
 
 createContact();
+
+createMenu();

@@ -1,3 +1,5 @@
+"use strict";
+
 export function createContact() {
     const content = document.querySelector("#content");
 
