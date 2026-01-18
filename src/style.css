@@ -1,21 +1,32 @@
+* {
+    list-style-type: none;
+}
+
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
 }
 
 #content {
     width: 30rem;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
+figure {
+    text-align: center;
 }
 
-/* .image {
-    content: url(img/prawns.jpg);
-} */
+img {
+    width: 100%;
+}
+
 
 .timings, th, td {
     border: 1px solid black;
